@@ -12,7 +12,7 @@ export default function Home() {
         <h1>
           Organize e compartilhe <br/> suas ideias com notas digitais
         </h1>
-        <p>Nossa plataforma de colaboração é o espaço ideal para transformar pensamentos em ações, 
+        <p>Nossa plataforma de colaboração é o espaço ideal para transformar pensamentos em ações,<br/> 
         com ferramentas práticas e intuitivas para suas anotações — e muito mais</p>
       </LayoutInicio>
     </NavbarHome>

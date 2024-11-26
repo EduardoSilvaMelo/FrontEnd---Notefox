@@ -3,6 +3,7 @@ import { NavbarContainer } from './styles';
 import Logo from '../../assets/Logotipoo.png';
 import Logoescuro from '../../assets/night.png';
 import Logoluz from '../../assets/day.png';
+import { Link } from 'react-router-dom';
 
 export default function Navbar({ theme, setTheme }) {
   const toggleMode = () => {
@@ -23,7 +24,8 @@ export default function Navbar({ theme, setTheme }) {
       </ul>
 
       <div className="actions">
-        <button className="login-btn">Login</button>
+        <Link to="/Login"> <button className="login-btn">Login</button></Link>
+       
         <button className="signup-btn">Cadastre-se</button>
         <div className="toggle">
           <img 

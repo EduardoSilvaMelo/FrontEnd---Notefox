@@ -26,16 +26,17 @@ export const LayoutInicio = styled.div`
 
   p{
     color: ${({ theme }) => (theme === 'escuro' ? '#f3f3f3' : '#333')};
+    font-family: sans-serif;
+    font-size: 24px;
   }
 
 
 
     @media (min-width: 768px) {
-      font-size: 2.5rem;
+      font-size: 4rem;
     }
 
     @media (min-width: 1024px) {
-      font-size: 3rem;
-    }
-  }
+      font-size: 4rem;
+      }}
 `;
